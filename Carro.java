@@ -1,3 +1,5 @@
+import java.math.BigDecimal;
+
 class Carro{
   private String marca;
   private String modelo;
@@ -5,6 +7,7 @@ class Carro{
   private int anoFabricacao;
   private String cor;
   private String tipoCompustivel;
+  private BigDecimal valorCarro;
 
   public Carro(String marca, String modelo, String placa){
       this.marca = marca;
@@ -58,5 +61,13 @@ class Carro{
 
   public String getTipoCombustivel(){
     return tipoCompustivel;
+  }
+
+  public void setValorCarro(BigDecimal valorCarro){
+    this.valorCarro = valorCarro;
+  }
+
+  public BigDecimal getValorCarro(){
+    return valorCarro;
   }
 }

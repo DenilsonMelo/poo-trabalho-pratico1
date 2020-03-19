@@ -7,6 +7,7 @@ class Cliente{
   private String cidade;
   private String bairro;
   private String rua;
+  private String numero;
   private String telefone;
 
   public Cliente(String nome, String cpf){
@@ -76,6 +77,14 @@ class Cliente{
 
   public String getRua(){
     return rua;
+  }
+
+  public void setNumero(String numero){
+    this.numero = numero;
+  }
+
+  public String getNumero(){
+    return numero;
   }
 
   public void setTelefone(String telefone){
