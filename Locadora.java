@@ -82,6 +82,9 @@ class Locadora{
     Aluguel aluguel04 = new Aluguel(onix, joaquim, 7);
     aluguel04.setFormaPagamento("Cartão de débito");
 
+    Aluguel aluguel05 = new Aluguel(gol, maria, 1);
+    aluguel05.setFormaPagamento("Cartão de crédito");
+
    System.out.println(aluguel01.recuperarDados());
    System.out.println("***************************");
    System.out.println(aluguel02.recuperarDados());
@@ -89,6 +92,8 @@ class Locadora{
    System.out.println(aluguel03.recuperarDados());
    System.out.println("***************************");
    System.out.println(aluguel04.recuperarDados());
+   System.out.println("***************************");
+   System.out.println(aluguel05.recuperarDados());
 
   }
 }

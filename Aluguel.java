@@ -35,6 +35,7 @@ class Aluguel{
     dados += "Quantidade de dias: " +quantidadeDias+ "\n";
     dados += "Valor diário: " +obterValorDiario(carro)+ "\n";
     dados += "Valor total: " +obterValorAluguel(carro, quantidadeDias) + "\n";
+    dados += "Forma de pagamento: " +getFormaPagamento()+ "\n";
     return dados;
   }
 }
